@@ -1,5 +1,4 @@
-public class Main {
-    import MODEL.Author;
+import MODEL.Author;
 import MODEL.Book;
 import MODEL.Category;
 import MODEL.Publisher;
@@ -10,7 +9,8 @@ import jakarta.persistence.Persistence;
 
 import java.time.LocalDate;
 
-    public class Main {
+public class Main {
+
         public static void main(String[] args) {
             EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("LibaryManagment");
             EntityManager entityManager = entityManagerFactory.createEntityManager();
@@ -60,4 +60,3 @@ import java.time.LocalDate;
         }
     }
 
-}
